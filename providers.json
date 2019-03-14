@@ -1,0 +1,34 @@
+[
+  {
+    "id": "abematv",
+    "url": "https://abema.tv/channels/new-anime/slots/8WFacU2dj8VJPH"
+  },
+  {
+    "id": "amazon",
+    "url": "https://www.amazon.co.jp/dp/B078TQWZ5L"
+  },
+  {
+    "id": "bandai",
+    "url": "https://www.b-ch.com/titles/5885/?ttl_c=5885"
+  },
+  {
+    "id": "danime",
+    "url": "https://anime.dmkt-sp.jp/animestore/ci_pc?workId=21949"
+  },
+  {
+    "id": "fod",
+    "url": "http://fod.fujitv.co.jp/s/genre/anime/ser5617/"
+  },
+  {
+    "id": "hulu",
+    "url": "https://www.happyon.jp/a-story-that-leads-to-the-antarctica"
+  },
+  {
+    "id": "niconico",
+    "url": "https://ch.nicovideo.jp/yorimoi"
+  },
+  {
+    "id": "u-next",
+    "url": "https://video.unext.jp/title/SID0032770"
+  }
+]
