@@ -1,0 +1,3 @@
+name = "yorimoi-mochizuki-moe"
+route = "https://yorimoi.mochizuki.moe/*"
+type = "javascript"
