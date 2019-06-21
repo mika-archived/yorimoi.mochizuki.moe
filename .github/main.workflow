@@ -8,6 +8,19 @@ action "Run only master branch" {
   args = "branch master"
 }
 
+action "Deploy app to Cloudflare" {
+  uses = "cloudflare/serverless-action@master"
+  needs = ["Run only master branch"]
+  envs = {
+    CLOUDFLARE_SCRIPT_NAME = "yorimoi-mochizuki-moe"
+  }
+  secrets = [
+    "CLOUDFLARE_AUTH_EMAIL",
+    "CLOUDFLARE_ZONE_ID",
+    "CLOUDFLARE_ACCOUNT_ID",
+  ]
+}
+
 action "Deploy app to fly.io" {
   uses = "mika-f/action-deploy-to-flyio@master"
   needs = ["Run only master branch"]
